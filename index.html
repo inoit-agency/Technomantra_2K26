@@ -1,0 +1,110 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TEHNOMANTRA | Tech-Spiritual Innovation</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Shadows+Into+Light&family=Caveat:wght@700&family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              primary: '#05020a',
+              accent: '#8b5cf6', // Violet/Purple from logo
+              secondary: '#0f081a',
+              muted: '#a1a1a6',
+              highlight: '#f5f5f7',
+              vibrant: '#00f2ff', // Cyan from logo
+              passion: '#ec4899', // Magenta/Pink from logo
+            },
+            fontFamily: {
+              sans: ['Space Grotesk', 'sans-serif'],
+              hand: ['Caveat', 'cursive'],
+              display: ['Bebas Neue', 'cursive'],
+            }
+          }
+        }
+      }
+    </script>
+    <style>
+      body {
+        background-color: #05020a;
+        color: #f5f5f7;
+        overflow-x: hidden;
+        -webkit-font-smoothing: antialiased;
+      }
+      .neon-glow-purple {
+        box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+      }
+      .neon-text-vibrant {
+        text-shadow: 0 0 10px rgba(0, 242, 255, 0.5);
+      }
+      .apple-blur {
+        background: rgba(5, 2, 10, 0.8);
+        backdrop-filter: saturate(180%) blur(20px);
+      }
+      .polaroid {
+        background: white;
+        padding: 0.75rem 0.75rem 2.5rem 0.75rem;
+        box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+        transition: transform 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      .tape {
+        background: rgba(139, 92, 246, 0.4);
+        backdrop-filter: blur(4px);
+        width: 120px;
+        height: 35px;
+        position: absolute;
+        top: -15px;
+        left: 50%;
+        transform: translateX(-50%) rotate(-3deg);
+        z-index: 20;
+        border: 1px solid rgba(255,255,255,0.1);
+      }
+      .sticker {
+        filter: drop-shadow(0 10px 15px rgba(0,0,0,0.5));
+        transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+      }
+      .sticker:hover {
+        transform: scale(1.1) rotate(5deg);
+      }
+      ::-webkit-scrollbar { width: 6px; }
+      ::-webkit-scrollbar-track { background: #05020a; }
+      ::-webkit-scrollbar-thumb { background: #2d1b4d; border-radius: 10px; }
+      
+      section {
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+      }
+      .character-cutout {
+        mask-image: linear-gradient(to bottom, black 80%, transparent 100%);
+      }
+      .card-perspective {
+        perspective: 1000px;
+      }
+    </style>
+    <script type="importmap">
+    {
+      "imports": {
+        "react/": "https://esm.sh/react@^19.2.3/",
+        "react": "https://esm.sh/react@^19.2.3",
+        "lucide-react": "https://esm.sh/lucide-react@^0.562.0",
+        "framer-motion": "https://esm.sh/framer-motion@^12.27.0",
+        "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+        "ogl": "https://esm.sh/ogl@1.0.1"
+      }
+    }
+    </script>
+  <link rel="stylesheet" href="/index.css">
+</head>
+  <body>
+    <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
