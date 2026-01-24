@@ -57,7 +57,7 @@ const AboutSection: React.FC = () => {
                 className="polaroid absolute -top-16 -right-16 z-20 w-72 md:w-96 hidden xl:block"
               >
                 <div className="tape"></div>
-                <img src="./public/ks.jpg" className="w-full h-80 object-cover mb-6 rounded-sm" alt="Baby Astronaut" />
+                <img src="/ks.jpg" className="w-full h-80 object-cover mb-6 rounded-sm" alt="Baby Astronaut" />
                 <p className="text-black font-hand text-4xl text-center">Star Event Of KS ✨</p>
               </motion.div>
 
@@ -70,7 +70,7 @@ const AboutSection: React.FC = () => {
               >
                 {/* Tech Face Image from provided visuals */}
                 <img 
-                  src="./public/balcony.JPG" 
+                  src="/balcony.JPG" 
                   alt="Tech Face Visual" 
                   className="w-full h-full object-cover"
                 />
@@ -80,7 +80,7 @@ const AboutSection: React.FC = () => {
               {/* Decorative Colorful Sticker */}
               <div className="absolute bottom-[-5%] left-[-5%] w-48 h-48 rounded p-4 shadow-2xl z-30 hidden lg:block">
                  <div className="w-full h-full rounded-[2.5rem] flex items-center justify-center text-7xl">
-                    <img className="rounded-[2.5rem]" src="./public/thunder.jpg" alt="" />
+                    <img className="rounded-[2.5rem]" src="/thunder.jpg" alt="" />
                  </div>
               </div>
             </div>

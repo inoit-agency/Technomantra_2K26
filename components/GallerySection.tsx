@@ -1,22 +1,21 @@
-
 import React from 'react';
 import { motion } from 'framer-motion';
 
 const GallerySection: React.FC = () => {
   const images = [
-  { url: './public/13.JPG', rotate: '-6deg', text: 'TechnoVerse 🔮' },
-  { url: './public/1.JPG',  rotate: '5deg',  text: 'Code Arena 💻' },
-  { url: './public/2.JPG',  rotate: '-4deg', text: 'Tech Nexus 🌐' },
-  { url: './public/3.JPG',  rotate: '6deg',  text: 'AI Pavilion 🤖' },
-  { url: './public/4.JPG',  rotate: '-5deg', text: 'Innovation Hub ⚙️' },
-  { url: './public/5.JPG',  rotate: '4deg',  text: 'Cyber Stage 🔐' },
-  { url: './public/6.JPG',  rotate: '-6deg', text: 'Dev Zone 🧠' },
-  { url: './public/7.JPG',  rotate: '5deg',  text: 'Future Lab 🚀' },
-  { url: './public/8.JPG',  rotate: '-4deg', text: 'Quantum Hall ⚛️' },
-  { url: './public/9.JPG',  rotate: '6deg',  text: 'Digital Frontier 🧬' },
-  { url: './public/10.JPG', rotate: '-5deg', text: 'Neural Network 🕸️' },
-  { url: './public/11.JPG', rotate: '4deg',  text: 'Binary Beats 🎧' },
-  { url: './public/12.JPG', rotate: '-6deg', text: 'TechnoVerse 🔮' },
+  { url: '/13.JPG', rotate: '-6deg', text: 'TechnoVerse ' },
+  { url: '/1.JPG',  rotate: '5deg',  text: 'Code Arena ' },
+  { url: '/2.JPG',  rotate: '-4deg', text: 'Tech Nexus ' },
+  { url: '/3.JPG', rotate: '6deg',  text: 'AI Pavilion ' },
+  { url: '/4.JPG', rotate: '-5deg', text: 'Innovation Hub ' },
+  { url: '/5.JPG', rotate: '4deg',  text: 'Cyber Stage ' },
+  { url: '/6.JPG', rotate: '-6deg', text: 'Dev Zone ' },
+  { url: '/7.JPG', rotate: '5deg',  text: 'Future Lab ' },
+  { url: '/8.JPG', rotate: '-4deg', text: 'Quantum Hall ' },
+  { url: '/9.JPG', rotate: '6deg', text: 'Digital Frontier ' },
+  { url: '/10.JPG', rotate: '-5deg', text: 'Neural Network ' },
+  { url: '/11.JPG', rotate: '4deg',  text: 'Binary Beats ' },
+  { url: '/12.JPG', rotate: '-6deg', text: 'TechnoVerse ' },
 
     
   ];

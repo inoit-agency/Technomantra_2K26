@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
                {/* <div className="w-24 h-24 bg-accent rounded-[2.5rem] flex items-center justify-center text-white rotate-12 shadow-[0_0_50px_rgba(139,92,246,0.4)] border border-white/20">
                   <Zap size={44} fill="currentColor" />
                </div> */}
-               <img className="h-16" src="./public/buddha.jpeg" alt="" /><h4 className="text-4xl font-bold tracking-normal uppercase font-display">TEHNO<span>MANTRA</span></h4>
+               <img className="h-16" src="/buddha.jpeg" alt="" /><h4 className="text-4xl font-bold tracking-normal uppercase font-display">TEHNO<span>MANTRA</span></h4>
             </div>
             <p className="text-3xl text-muted max-w-md font-hand leading-relaxed mb-12">
               "Enlightening the path through neon corridors of innovation." 🧘‍♂️✨
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
 
       {/* Decorative Helmet Peek using provided visual */}
       <div className="absolute bottom-[-10px] left-[5%] w-56 h-56 opacity-10 pointer-events-none overflow-hidden grayscale contrast-125">
-         <img src="./public/tm_hero.jpeg" className="character-cutout object-contain w-full h-full" alt="Futuristic Helmet" />
+         <img src="/tm_hero.jpeg" className="character-cutout object-contain w-full h-full" alt="Futuristic Helmet" />
       </div>
     </footer>
   );

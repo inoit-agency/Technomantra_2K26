@@ -40,7 +40,7 @@ const SiteLoader: React.FC<SiteLoaderProps> = ({ onComplete }) => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
           // REPLACE THE PATH BELOW WITH YOUR ACTUAL GIF FILE NAME
-          src="./public/loader.mp4" 
+          src="/loader.mp4" 
           alt="Loading Animation" 
           autoPlay
           loop
